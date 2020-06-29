@@ -1,0 +1,17 @@
+{
+   "type": "postgres",
+   "host": "localhost",
+   "port": 5432,
+   "username": "postgres",
+   "password": "password",
+   "database": "postgres",
+   "entities": [
+      "./src/app/entity/**/*.ts"
+   ],
+   "migrations": [
+      "./src/database/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "./src/app/subscriber/**/*.ts"
+   ]
+}
